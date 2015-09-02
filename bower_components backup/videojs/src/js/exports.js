@@ -1,6 +1,6 @@
 /**
  * @fileoverview Exports for Video.js.
- * Exports are publically available variables.
+ * Exports are publicly available variables.
  * All other variables (including function names) will probably
  * be renamed by closure compiler.
  */
