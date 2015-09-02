@@ -36,9 +36,13 @@ String.prototype.repeat = function (num) {
     });
 
     // Custom Selects
-    if ($('[data-toggle="select"]').length) {
-      $('[data-toggle="select"]').select2();
-    }
+    //if ($('[data-toggle="select"]').length) {
+      //$('[data-toggle="select"]').select2();
+    //}
+	
+	$(".select-default").select2({dropdownCssClass: 'dropdown-inverse', minimumResultsForSearch: -1});
+	$(".select-search").select2({dropdownCssClass: 'dropdown-inverse'});
+	$(".multiselect").select2({dropdownCssClass: 'dropdown-inverse'});
 
     // Checkboxes and Radio buttons
     $('[data-toggle="checkbox"]').radiocheck();
